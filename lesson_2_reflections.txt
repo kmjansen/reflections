@@ -1,11 +1,11 @@
-What happens when you initialize a repository? Why do you need to do it?
+# What happens when you initialize a repository? Why do you need to do it?
 
 Initializing a repository creates the necessary metadata inside of a directory
 for Git to use the directory as a repository. We need to do this to tell Git
 that we are going to use that directory as a source repository.
 
-How is the staging area different from the working directory and the repository?
-What value do you think it offers?
+# How is the staging area different from the working directory and the
+repository? What value do you think it offers?
 
 The staging area is different from the working directory in that the staging
 area contains the files and changes that will be added to the repository
@@ -13,15 +13,15 @@ during a commit while the working directory is just a directory that will house
 the staging area and repository. The repository contains the all of the
 intentionally committed files and changes.
 
-How can you use the staging area to make sure you have one commit per logical
+# How can you use the staging area to make sure you have one commit per logical
 change?
 
 I can use the staging area to make sure that I have one commit per logical
 change by only adding the files necessary for one logical change before
 committing.
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+# What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
 
 Some situations in which branches would help keep my history organized
 are experimental functionality, or creating different "versions" of the same
@@ -29,24 +29,24 @@ application such as with different languages or different levels of difficulty.
 Branches would help me do this by allowing me to work on, switch between, and
 even merge the different versions (or branches) that I'm working on.
 
-How do the diagrams help you visualize the branch structure?
+# How do the diagrams help you visualize the branch structure?
 
 Diagrams help me visualize the branch structure because I can see on paper
 what is happening "under the covers." I've always been really confused
 by these concepts, but now I can better understand how it all works.
 
-What is the result of merging two branches together? Why do we represent it in
+# What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
 The result of merging two branches together is that we are left with a single
 branch incorporating all of the changes of both branches (if we did it right)
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
+# What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 
 The pro's of Git's automatic merging include 1) files that have changes that
 don't conflict are automatically merged, saving time and effort
 2) when it's not sure about something, it will ask you to manually merge.
 A pro of always manually merging are that 1) you will be sure to understand
-exatly what is being merged, but the cons include 1) a whole lot of extra
+exactly what is being merged, but the cons include 1) a whole lot of extra
 time and effort, 2) would be easy to make human error mistakes.
