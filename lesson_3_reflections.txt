@@ -42,5 +42,9 @@ and what would be harder?
 master?  What benefits does each approach have?
 
     One would want to make changes in a separate branch rather than directly in
-    in master to ensure that we don't break our master. It is faster to not use
-    separate branches, but it is safer to do so.
+    in master to ensure that we don't break our master. When contributing
+    to a public repository, it’s standard practice to make the changes in a non-
+    master branch within the fork. This way, you can easily keep your master
+    branch up-to-date with master of the original repository, and merge changes
+    from master into your branch when you are ready. It is faster to not use
+    separate branches, however.
